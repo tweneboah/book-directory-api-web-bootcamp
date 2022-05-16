@@ -1,0 +1,28 @@
+{
+  "name": "book-directory-api",
+  "version": "1.0.0",
+  "engines": {
+    "node": "v16.14.2",
+    "npm": "8.5.0"
+  },
+  "description": "This api for book directory app",
+  "main": "server.js",
+  "scripts": {
+    "server": "nodemon server.js",
+    "start": "node sever.js"
+  },
+  "author": "i-novotek academy",
+  "license": "ISC",
+  "dependencies": {
+    "bcryptjs": "^2.4.3",
+    "connect-mongo": "^4.6.0",
+    "dotenv": "^16.0.1",
+    "express": "^4.18.0",
+    "express-async-handler": "^1.2.0",
+    "express-session": "^1.17.2",
+    "mongoose": "^6.3.1"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.16"
+  }
+}
